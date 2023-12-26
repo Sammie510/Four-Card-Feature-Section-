@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 35px;
+    font-family:poppins;
+    font-weight: 200;
+    padding-top: 70px;
+}
+
+h3{
+    font-size: 35px;
+    font-family:poppins;
+    font-weight: 500;
+}
+p{
+    font-size: 15px;
+    font-family:poppins;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.firstSection{
+    text-align: center;
+    display: block;
+}
+
+#tabs{
+    font-size: 20px;
+}
+ .plate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    
+} 
+.plate div{
+    border: 5px solid ;
+    border-radius: 8px;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    box-shadow: 0px 16px 28px #dfe7f0;
+}
+.plate .plate1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    padding: 28px;
+    max-width: 350px;
+    
+}
+.plate .plate2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    padding: 28px;
+    max-width: 350px
+}
+.plate .secondPlate{
+    display: flex;
+    flex-direction: column;
+    border-top: transparent;
+}
+.plate .plate3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    padding: 28px;
+    max-width: 350px
+}
+.plate .plate4{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    padding: 28px;
+    max-width: 350px
+}
+
+img{
+    margin-left: 280px;
+    margin-top: 120px;
+}
+.secondPlate{
+    display: block;
+    grid-gap: 30px;
+    border: transparent;
+    
+
+}
+.secondPlate div{
+    grid-gap: 30px;
+    border: 5px solid ;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    
+}
+
+
+
+@media (max-width:1072px) {
+    #firstParagraph{
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+    .plate{
+        transition: .3S;
+        display: block;
+        justify-items: center;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .plate div{
+        margin-top: 33px;
+    }
+    .plate .secondPlate {
+        display: block;
+        border-top: transparent;
+        border:none;
+        box-shadow:none;
+                                                                                
+    }
+    img{
+        margin-left: 280px;
+        margin-top: 120px;
+    }
+}
